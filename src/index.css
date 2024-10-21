@@ -1,0 +1,26 @@
+html {
+  font-family: monospace;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: thin;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: rgb(19, 141, 13);
+}
+
+::-webkit-scrollbar-thumb {
+  background:rgb(211, 211, 211);
+  border-radius: 20px;
+  height:auto
+} 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
